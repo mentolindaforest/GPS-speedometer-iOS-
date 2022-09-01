@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B833382F28BE6BDD003FFC3D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833382E28BE6BDD003FFC3D /* LocationManager.swift */; };
+		B833383028BE6BDD003FFC3D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B833382E28BE6BDD003FFC3D /* LocationManager.swift */; };
 		B838946F28BE680600F29657 /* gps_speedometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838945F28BE680500F29657 /* gps_speedometerApp.swift */; };
 		B838947028BE680600F29657 /* gps_speedometerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838945F28BE680500F29657 /* gps_speedometerApp.swift */; };
 		B838947128BE680600F29657 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838946028BE680500F29657 /* ContentView.swift */; };
 		B838947228BE680600F29657 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B838946028BE680500F29657 /* ContentView.swift */; };
-		B838947328BE680600F29657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B838946128BE680600F29657 /* Assets.xcassets */; };
-		B838947428BE680600F29657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B838946128BE680600F29657 /* Assets.xcassets */; };
+		B83F0C5928BF8EE200BCCB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83F0C5628BF8EE200BCCB46 /* Assets.xcassets */; };
+		B83F0C5A28BF8EE200BCCB46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83F0C5628BF8EE200BCCB46 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B833382E28BE6BDD003FFC3D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		B838945F28BE680500F29657 /* gps_speedometerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gps_speedometerApp.swift; sourceTree = "<group>"; };
 		B838946028BE680500F29657 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B838946128BE680600F29657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B838946628BE680600F29657 /* gps_speedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gps_speedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B838946C28BE680600F29657 /* gps_speedometer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gps_speedometer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B838946E28BE680600F29657 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B83F0C5628BF8EE200BCCB46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = AppIcons/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +57,10 @@
 		B838945E28BE680500F29657 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				B83F0C5628BF8EE200BCCB46 /* Assets.xcassets */,
 				B838945F28BE680500F29657 /* gps_speedometerApp.swift */,
 				B838946028BE680500F29657 /* ContentView.swift */,
-				B838946128BE680600F29657 /* Assets.xcassets */,
+				B833382E28BE6BDD003FFC3D /* LocationManager.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,7 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B838947328BE680600F29657 /* Assets.xcassets in Resources */,
+				B83F0C5928BF8EE200BCCB46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,7 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B838947428BE680600F29657 /* Assets.xcassets in Resources */,
+				B83F0C5A28BF8EE200BCCB46 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,6 +182,7 @@
 			files = (
 				B838947128BE680600F29657 /* ContentView.swift in Sources */,
 				B838946F28BE680600F29657 /* gps_speedometerApp.swift in Sources */,
+				B833382F28BE6BDD003FFC3D /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +192,7 @@
 			files = (
 				B838947228BE680600F29657 /* ContentView.swift in Sources */,
 				B838947028BE680600F29657 /* gps_speedometerApp.swift in Sources */,
+				B833383028BE6BDD003FFC3D /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,8 @@
 				DEVELOPMENT_TEAM = 44699H7AFM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -323,7 +331,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mentolindaforest.gps-speedometer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mentolindaforest.gps-speedometer1.0";
 				PRODUCT_NAME = gps_speedometer;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -342,6 +350,8 @@
 				DEVELOPMENT_TEAM = 44699H7AFM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,7 +363,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mentolindaforest.gps-speedometer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mentolindaforest.gps-speedometer1.0";
 				PRODUCT_NAME = gps_speedometer;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
